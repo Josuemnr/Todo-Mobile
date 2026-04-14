@@ -5,6 +5,14 @@ import { HapticTab } from '@/components/haptic-tab';
 import { IconSymbol } from '@/components/ui/icon-symbol';
 import { Colors } from '@/constants/theme';
 import { useColorScheme } from '@/hooks/use-color-scheme';
+//import StorybookUI from "../.rnstorybook";
+
+const SHOW_STORYBOOK = true; 
+
+//export default function RootLayout() {
+  //if (SHOW_STORYBOOK) {
+    //return <StorybookUI />;
+  //}
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
